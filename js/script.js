@@ -30,7 +30,7 @@ form.addEventListener('submit', function(event) {
     }
 
     // 6. Simulação de envio com sucesso
-    alert(`Obrigado, ${nome}! Sua mensagem foi enviada com sucesso (Simulação).`);
+    alert(`Obrigado, ${nome}! Sua mensagem foi enviada com sucesso.`);
 
     // Limpa o formulário após o "envio"
     form.reset();
