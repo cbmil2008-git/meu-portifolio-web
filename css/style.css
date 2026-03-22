@@ -1,0 +1,73 @@
+/* 1. Reset: Remove margens padrão do navegador para o site ocupar a tela toda */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Estilo do Corpo (Fonte e Cor de Fundo) */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 3. Menu de Navegação */
+header {
+    background: #2c3e50; /* Cor azul escuro profissional */
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed; /* Deixa o menu fixo no topo ao rolar a página */
+    width: 100%;
+    top: 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none; /* Remove as "bolinhas" da lista */
+}
+
+header nav ul li {
+    display: inline; /* Coloca os itens um ao lado do outro */
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold;
+}
+
+/* 4. Estilo das Seções */
+section {
+    padding: 100px 20px; /* Espaço para o conteúdo não ficar colado no menu fixo */
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza as seções na tela */
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+/* 5. Estilo do Formulário */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #219150; /* Muda a cor quando passa o mouse */
+}
