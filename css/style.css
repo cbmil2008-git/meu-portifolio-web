@@ -71,3 +71,12 @@ button {
 button:hover {
     background: #219150; /* Muda a cor quando passa o mouse */
 }
+
+.foto-perfil {
+    width: 200px;        /* Define a largura (ajuste o número como preferir) */
+    height: auto;        /* Mantém a proporção original para não achatar a foto */
+    border-radius: 50%;  /* OPCIONAL: Deixa a foto redonda, estilo perfil de rede social */
+    border: 3px solid #2c3e50; /* OPCIONAL: Adiciona uma borda com a cor do seu menu */
+    display: block;      /* Ajuda a centralizar */
+    margin: 20px auto;   /* Centraliza a foto horizontalmente */
+}
